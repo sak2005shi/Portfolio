@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Tech Stack</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <span class="wave">👋</span><br> <span>Sakshi</span></h2>
+            <h3>I'm an Engineering student.</h3>
+            <a href="#about" class="btn" style="background-color:red;">About Me</a>
+            <h3 style="color: rgb(15, 15, 15);">Social Connect</h3>
+            <div class="boxSocial">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/sakshi-undefined-39329b25b" target="_blank">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com/its_sakshi_062" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://leetcode.com/u/sakshi06052005/" target="_blank">
+                        <i class="fa fa-code"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/IMG_20250117_212427.jpg" alt="pic" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am I?</h3>
+                <h2>I'm <b>SAKSHI</b>, a programming enthusiast</h2>
+                <p>Dedicated and efficient Front-end developer with experience in HTML, CSS, Javascript.</p>
+                <p>Currently exploring web development and open-source contributions. I'm also starting with competitive programming.</p>
+                <p>I am a 3rd-year undergraduate in Computer Science Engineering from Graphic Era Hill University, Dehradun.</p>
+                <div class="heading bottom">
+                    <a href="images/resume.pdf" class="btn round">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Tech Stack & Skills</h2>
+            <p> I work with</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-html5 fa-4x"></i>
+                <h3>HTML & HTML5</h3>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-file-code-o fa-4x"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-github fa-4x"></i>
+                <h3>Git & GitHub</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="work" id="work">
+        <div class="heading">
+            <h2 class="projects">Projects</h2>
+            <p class="project__descp">Showcasing some of my <b>projects</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://github.com/sak2005shi/Plant-seed-disease-detection" target="_blank">
+                    <img src="images/plant.jpg" alt="Plant seed disease detection" style="width: 400px;">
+                    <p class="workbx__p"><b>Plant Seed Disease Detection</b></p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/sak2005shi/wow-watchoutweather-master" target="_blank">
+                    <img src="images/Weather - Copy.jpg" alt="Weather App" style="width:auto;">
+                    <p class="workbx__p"><b>Weather App</b></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="career-lab" id="career-lab">
+        <div class="heading">
+            <h2>PRACTICAL FOR EMPLOYABILITY SKILL ENHANCEMENT</h2>
+            <p>Week-wise learning content and videos from Career Lab classes</p>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <h3>Week 1 - SELF-INTRODUCTION</h3>
+                    <p>I learned about self-introduction in the Career Lab during class. We covered:</p>
+                    <ul>
+                        <li>How to introduce ourselves confidently.</li>
+                        <li>Key points to include (name, education, skills).</li>
+                        <li>Importance of body language and voice modulation.</li>
+                    </ul>
+                    <video controls preload="auto" width="640" height="360">
+                        <source src="images/week_1 (1) (1) (1).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br> <br>
+                    <h3>Week 2 - RESUME BUILDING</h3>
+                    <p>In this week, we learned how to create an effective resume:</p>
+                    <ul>
+                        <li>Essential sections (Contact Info, Education, Experience, Skills).</li>
+                        <li>How to structure and format a resume professionally.</li>
+                        <li>Importance of tailoring resumes for specific job roles.</li>
+                    </ul>
+                    <a href="images/resume.pdf" target="_blank" class="btn" style="background-color: blue; color: white; padding: 10px; text-decoration: none; border-radius: 5px;">View My Resume</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br><br>
+                    <h3>Week 3 - EXTEMPORE VIDEO</h3>
+                    <p>This week, I practiced extempore speaking skills. Below is my extempore video:</p>
+                    <video controls preload="auto" width="640" height="360">
+                        <source src="images/extempore_1 (1) (1) (1) (1).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h4> Importance of Social Media</h4>
+                    <p>We also discussed how social media impacts our personal and professional lives:</p>
+                    <ul>
+                        <li><b>Networking & Job Opportunities:</b> Helps connect with professionals and find jobs.</li>
+                        <li><b>Personal Branding:</b> Builds an online presence showcasing skills & expertise.</li>
+                        <li><b>Learning & Awareness:</b> Access to online courses, news, and industry trends.</li>
+                        <li><b>Communication & Collaboration:</b> Easy interaction with global audiences and teamwork.</li>
+                        <li><b>Privacy & Digital Footprint:</b> Importance of responsible social media usage.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Patna, Bihar<br>India, 800006</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>9122450683</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o"></i></div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>sakshi06052005@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="formBx">
+                        <form>
+                            <h3>Message Me</h3>
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Email">
+                            <textarea rows="6" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <p>&copy; 2024, All rights reserved</p>
+        <p>MADE WITH ❤️ BY ME</p>
+    </footer>
+</body>
+
+</html>
